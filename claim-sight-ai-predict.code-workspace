@@ -1,0 +1,27 @@
+
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.vscode": true,
+            "**/*.log": true
+        },
+        "typescript.tsdk": "node_modules/typescript/lib"
+    },
+    "extensions": {
+        "recommendations": [
+            "bradlc.vscode-tailwindcss",
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "usernamehw.errorlens",
+            "ms-vscode.vscode-typescript-next"
+        ]
+    }
+}
