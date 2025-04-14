@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
 
-## Project info
+# ClaimSight AI Predict - Insurance Claim Assessment System
 
-**URL**: https://lovable.dev/projects/8d1ce108-9004-4c4d-a4d1-a8290d35f808
+## Project Overview
 
-## How can I edit this code?
+ClaimSight AI Predict is an advanced web application for predicting and assessing car insurance claims using AI-powered analytics.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Claim Submission Form
+- AI-Powered Claim Assessment
+- Detailed Results Visualization
+- Interactive Dashboard
+- Risk Factor Analysis
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8d1ce108-9004-4c4d-a4d1-a8290d35f808) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn UI
+- React Query
+- React Router
 
-**Use your preferred IDE**
+## Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v18 or later)
+- npm or bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Local Development Setup
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/claimsight-ai-predict.git
+cd claimsight-ai-predict
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+bun run dev
+```
 
-**Use GitHub Codespaces**
+4. Open `http://localhost:8080` in your browser
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Environment Configuration
 
-## What technologies are used for this project?
+Copy `.env.example` to `.env` and configure:
+- `VITE_APP_TITLE`: Application title
+- `VITE_APP_DESCRIPTION`: App description
+- `VITE_DEVELOPMENT_MODE`: Toggle development features
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Lovable Deployment
+1. Open the project in Lovable
+2. Click "Publish" in the top right corner
 
-## How can I deploy this project?
+### Manual Deployment
+- Platforms like Vercel, Netlify, or Cloudflare Pages
+- Build command: `npm run build`
+- Serve directory: `dist`
 
-Simply open [Lovable](https://lovable.dev/projects/8d1ce108-9004-4c4d-a4d1-a8290d35f808) and click on Share -> Publish.
+## Contributing
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Push to the branch
+5. Create a Pull Request
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+[Insert your license here, e.g., MIT]
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+
+[Your contact information or support email]
+```
+
